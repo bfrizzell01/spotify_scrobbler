@@ -1,0 +1,11 @@
+name: scrobbler
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - ipykernel
+  - click
+  - pytest
+pip:
+  - pylast
